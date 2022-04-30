@@ -1,0 +1,37 @@
+HTTP/1.0 503 Service Unavailable
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <style>
+      body {
+        background-color: white;
+      }
+      h1,
+      h2 {
+        text-align: center;
+	  font-family: Arial;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <br> 
+    <br> 
+    <h1>Servidor no está disponible</h1>
+    <img
+      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-6vnomecItA&psig=AOvVaw0zx7dlS3RbMAFAu0tDhk16&ust=1651194346268000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLDzhLfItfcCFQAAAAAdAAAAABAD"
+      alt="503 error"
+    />
+  </body>
+</html>
